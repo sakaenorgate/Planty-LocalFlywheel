@@ -1,0 +1,54 @@
+/*
+Theme Name: Planty
+Text Domain: twentytwenty
+Template: twentytwenty
+Version: 2.2
+Tested up to: 6.2
+Author: WP
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/twentytwenty/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+.primary-menu li a {
+    padding: 22px;
+}
+
+.primary-menu li a:hover {
+    text-decoration: none;
+    background-color: #DC9F96;
+    color: white;
+}
+
+/* Logo Planty */
+.custom-logo-link {
+    width: 50%;
+}
+
+div.wpforms-container-full .wpforms-field-label {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+#wpforms-submit-400.wpforms-submit {
+    background-color: #E0B9B4;
+    padding: 15px 20px 30px 20px;
+}
+
+div.wpforms-container-full {
+    border-radius: 5px;
+    padding: 50px;
+}
+
+input #wpforms-502-field_3-container .wpforms-field .wpforms-field-number {
+    padding:100px;
+    background-color: red;
+}
+
+div #wpforms-submit-502 .wpforms-submit .numberokbutton{
+    background-color: #E0B9B4;
+
+}
