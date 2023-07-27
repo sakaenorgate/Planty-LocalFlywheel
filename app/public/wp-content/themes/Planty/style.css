@@ -11,9 +11,8 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-
 .primary-menu li a {
-    padding: 22px;
+    padding: 25px;
 }
 
 .primary-menu li a:hover {
@@ -27,28 +26,73 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     width: 50%;
 }
 
-div.wpforms-container-full .wpforms-field-label {
-  font-size: 20px;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-}
-#wpforms-submit-400.wpforms-submit {
-    background-color: #E0B9B4;
-    padding: 15px 20px 30px 20px;
-}
+/* body {
+    font-style: 'Syne';
+} */
 
-div.wpforms-container-full {
-    border-radius: 5px;
-    padding: 50px;
+/* h1 {
+    font-size: 38px;
+    font-weight: 800;
+    height: 45px;
+    color: #3B8E4B;
 }
 
-input #wpforms-502-field_3-container .wpforms-field .wpforms-field-number {
-    padding:100px;
-    background-color: red;
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    height: 36px;
+    color: #D2776A;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+    height: 36px;
+    color: #3B8E4B;
 }
 
-div #wpforms-submit-502 .wpforms-submit .numberokbutton{
-    background-color: #E0B9B4;
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    height: 57px;
+    color: #FFFFFF;
+}
 
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    height: 24px;
+    color: #54595F;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    height: 19px;
+    color: #54595F;
+}
+ */
+
+/* Nous contacter button */
+.elementor-53 .elementor-element.elementor-element-667ec7a .premium-cf7-container input.wpcf7-submit {
+    margin: 1em 35% 0;
+}
+
+.elementor-55 .elementor-element.elementor-element-ce09e93 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 30px auto;
+    width: 50%;
+}
+
+.elementor-55 .elementor-element.elementor-element-ce09e93
+    p:nth-child(4), 
+.elementor-55 .elementor-element.elementor-element-ce09e93
+    p:nth-child(5), 
+.elementor-55 .elementor-element.elementor-element-ce09e93
+    p:nth-child(6), 
+    .elementor-55 .elementor-element.elementor-element-ce09e93
+    p:nth-child(7) {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }

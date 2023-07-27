@@ -6,6 +6,24 @@ function twentytwenty_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'twentytwenty_styles', 999);
 
+// Register style sheet.
+add_action( 'wp_print_styles', 'google_fonts' );
+
+/**
+ * Register style sheet.
+ */
+function google_fonts() {
+    wp_register_style( 'Syne', '//fonts.googleapis.com/css?family=Ubuntu:400,400i,700' );
+    wp_enqueue_style( 'Syne' );
+}
+
+add_filter( 'wpcf7_form_elements', 'delicious_wpcf7_form_elements' );
+ 
+function delicious_wpcf7_form_elements( $form ) {
+$form = do_shortcode( $form );
+return $form;
+}
+
 
 // add_action('set_current_user', 'ed_hide_admin_bar');
 // function ed_hide_admin_bar() {
