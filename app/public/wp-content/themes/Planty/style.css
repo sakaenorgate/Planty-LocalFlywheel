@@ -72,20 +72,62 @@ p {
 }
  */
 
-/* Nous contacter button */
+/* Form Nous contacter Submit-button */
 .elementor-53 .elementor-element.elementor-element-667ec7a .premium-cf7-container input.wpcf7-submit {
     margin: 1em 35% 0;
 }
 
-.elementor-55 .elementor-element.elementor-element-ce09e93 {
-    display: grid;
+/* Form Commander */
+#left {
+    width: 47%;
+    float: left;
+    margin-right: 6%;
+}
+#right {
+    width: 47%;
+    float: left;
+}
+.commandform:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.commandform {
+    display: block;
+}
+
+    /* Hide spinbox in input number Code postal*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+   /* Code postal height */ 
+#code-postal {
+    height: 70px;
+}   
+
+/* Form Commander Submit-button */
+.elementor-widget-premium-contact-form .premium-cf7-container input.wpcf7-submit {
+    margin: 1em 41% 0;
+    text-decoration: none;
+}
+
+
+
+
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     margin: 30px auto;
-    width: 50%;
+    width: 50%; */
 }
 
-.elementor-55 .elementor-element.elementor-element-ce09e93
+/* .elementor-55 .elementor-element.elementor-element-ce09e93
     p:nth-child(4), 
 .elementor-55 .elementor-element.elementor-element-ce09e93
     p:nth-child(5), 
@@ -95,4 +137,6 @@ p {
     p:nth-child(7) {
     grid-column-start: 1;
     grid-column-end: 3;
-}
+    background-color: red;
+} */
+
