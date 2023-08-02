@@ -12,8 +12,21 @@
  */
 
 ?>
+</html>
+	<body>
 			<footer id="site-footer" class="header-footer-group">
 
+				<div class="section-inner">
+
+					<div class="footer-credits">
+
+						<p class="footer-copyright">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Montions légales</a>
+						</p><!-- .footer-copyright -->
+
+					</div><!-- .footer-credits -->
+
+				</div><!-- .section-inner -->
 
 			</footer><!-- #site-footer -->
 
