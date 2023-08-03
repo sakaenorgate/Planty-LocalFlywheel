@@ -1033,6 +1033,7 @@
 			$wpFastestCachePreload_number = isset($this->options->wpFastestCachePreload_number) ? esc_attr($this->options->wpFastestCachePreload_number) : 4;
 			$wpFastestCachePreload_restart = isset($this->options->wpFastestCachePreload_restart) ? 'checked="checked"' : "";
 			$wpFastestCachePreload_order = isset($this->options->wpFastestCachePreload_order) ? esc_attr($this->options->wpFastestCachePreload_order) : "";
+			$wpFastestCachePreload_sitemap = isset($this->options->wpFastestCachePreload_sitemap) ? esc_attr($this->options->wpFastestCachePreload_sitemap) : "";
 
 
 
@@ -1468,7 +1469,7 @@
 												if(isset($this->options->wpFastestCacheLanguage) && ($this->options->wpFastestCacheLanguage == $lang_array_key)){
 													$option_selected = 'selected="selected"';
 												}else{
-													if($lang_array_key == "en_EN"){
+													if($lang_array_key == "en_US" || $lang_array_key == "en_EN"){
 														$option_selected = 'selected="selected"';
 													}
 												}
