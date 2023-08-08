@@ -1,0 +1,98 @@
+﻿Contact form3
+<div id="number-command">
+<h4>Votre commande</h4> <div class="stepper stepper--style-1 js-spinner">
+  <div class="wrapper">
+   <div class="one-two">   
+      <section class="one"> 
+         <h3 id="title-photo-fraise">FRAISE</h3>
+         <div>[number fraise id:fraise class:stepper__input min:0 max:100 class:fraise "0"]</div> 
+         <div id="fraise-ok">[submit "OK"]</div>
+      </section>
+      <section class="two">
+         <h3 id="title-photo-framboise">FRAM BOISE</h3>
+         <div>[number framboise id:framboise class:stepper__input min:0 max:100 class:framboise "0"]</div> 
+         <div id="framboise-ok">[submit "OK"] </div>
+      </section>
+   </div>
+   <div class="one-two">   
+      <section class="three">
+         <h3 id="title-photo-pamplmosse">PAMPL MOUSSE</h3>
+         <div>[number pamplmosse id:pamplmosse class:stepper__input min:0 max:100 class:pamplmosse "0"]</div>
+         <div id="pamplmosse-ok">[submit "OK"]</div>
+      </section>
+      <section class="four">
+         <h3 id="title-photo-citron">CITRON</h3>
+         <div>[number citron id:citron class:stepper__input min:0 max:100 class:citron "0"]</div>
+         <div id="citron-ok">[submit "OK"]</div>
+      </section>
+   </div>
+  </div>
+ </div>
+</div>
+<div class="commandform">
+  <div id="left">
+    <br/><h4>Votre information<h4><br/>
+    <label>Nom</label>[text* nom]<br/>
+    <label>Prénom</label>[text* prenom]<br/>
+    <label>E-mail</label>[email* email]<br/>
+  </div>
+  <div id="right">
+    <h4>Votre information<h4><br/>
+    <label>Adresse de livraison</label>[text* adresse]<br/>
+    <label>Code postal</label>[number* code-postal id:code-postal class:codepostal]<br/>
+    <label>Ville</label>[text* ville]<br/>
+  </div>
+[submit id:commander-submit "Commander"]
+</div>
+
+
+
+
+Contact form2
+
+
+<label> Nom
+    [text* nom id:commande_name class:form-width] </label>
+
+
+<label> E-mail
+    [email* email id:commande_email class:form-width] </label>
+
+
+<label> Message
+    [textarea* message id:message class:form-width] </label>
+
+
+[submit id:contact_envoyer_button class:contact_envoyer_button "envoyer"]
+
+
+
+
+Contact form4
+
+
+<div class="commandform">
+  <div id="left">
+    <br/><h4>Votre information<h4><br/>
+    <label>Nom</label>[text* nom]<br/>
+    <label>Prénom</label>[text* prenom]<br/>
+    <label>E-mail</label>[email* email]<br/>
+  </div>
+  <div id="right">
+    <h4>Votre information<h4><br/>
+    <label>Adresse de livraison</label>[text* adresse]<br/>
+    <label>Code postal</label>[number* code-postal id:code-postal class:codepostal]<br/>
+    <label>Ville</label>[text* ville]<br/>
+  </div>
+[submit id:commander-submit "Commander"]
+</div>
+
+
+
+
+Contact form5
+
+
+<div class="stepper stepper--style-1 js-spinner">
+         <div>[number fraise id:fraise class:stepper__input min:0 max:100 class:fraise "0"]</div> 
+</div>
