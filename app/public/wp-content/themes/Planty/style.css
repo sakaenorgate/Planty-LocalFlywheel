@@ -179,7 +179,10 @@ div #fraise-ok input, #framboise-ok input, #pamplmousse-ok input, #citron-ok inp
     float: right;
     margin: 0px !important;
 }
-
+#fraise-ok input:hover, #framboise-ok input:hover, #pamplmousse-ok input:hover, #citron-ok input:hover {
+    background-color: #C02E44;
+    color: #ffffff;
+}
 
 /* Résponsive */
 @media (max-width: 1280px)
